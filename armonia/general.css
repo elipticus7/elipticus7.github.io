@@ -5,7 +5,14 @@ body, html {
     height: 100%;
     counter-reset: item;
     font-size: 100%;
-    background-image: url("fondotunel.jpg");
+      background-image: url("fondotunel.jpg");
+
+  /* Full height */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
