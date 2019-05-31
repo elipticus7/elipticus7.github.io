@@ -5,6 +5,7 @@ body, html {
     height: 100%;
     counter-reset: item;
     font-size: 100%;
+    background-image: url("fondotunel.jpg");
 }
 
 
