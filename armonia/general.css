@@ -218,7 +218,18 @@ text-align: justify;
 
  }
 
+ ul li  {
 
+    font-size: 165%;
+
+ }
+
+
+  ol li  {
+
+    font-size: 70%;
+
+ }
 
 
   ol.sub-menu {
@@ -340,3 +351,4 @@ text-align: justify;
     text-decoration: none;
     cursor: pointer;
     text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+
