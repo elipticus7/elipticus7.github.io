@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ecuaciones</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+      $(document).ready(function(){
+
+      $("a").click(function(){
+       $(this).prev().slideToggle();
+       
+
+      if ($(this).text() === "Mostrar respuesta") {
+      $(this).text("Ocultar respuesta");
+      }
+      else {
+      $(this).text("Mostrar respuesta");
+      }
+
+       });
+      });
+
+    </script>
+
+ 	 <link rel="stylesheet" href="main.css">	
+
+ 	 <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+</head>
+<body>
+
+<div id="divcen">
+<center><h2>1: ecuaciones enteras primer grado</h2></center>
+
+
+<p>
+<span class="num">1.1</span> _ Las edades de un padre y un hijo suman 60 años. Si a la edad del padre se le restan 15 años se obtendria el doble de la edad del hijo, cuales son sus respectivas edades?
+</p>
+
+<div id="respuesta">
+<pre>
+Hijo = x                              
+Padre = 60 - x                        
+
+60-15-x = 2x                          
+     45 = 2x + x
+     45 = 3x                        
+   45/3 = x                           
+     15 = x   (hijo 15 años)          
+
+     60 - 15 = 45   (padre 45 años)    
+<pre>
+</div> 
+<a href="javascript:void(0)">Mostrar respuesta</a>
+
+<br><br>
+
+
+<p>
+<span class="num">1.2</span> _ Dividir 254 en 3 partes tales que la 2da parte sea el triplo que la primera y 40 unidades mayor que la tercera.
+</p>
+
+<div id="respuesta">
+<pre>
+parte 1 = x  
+parte 2 = 3x 
+parte 3 = 3x - 40 
+
+x + 3x + 3x - 40 = 254
+              7x = 254 + 40
+              7x = 294
+               x = 42  (1er parte)
+
+          3 . 42 = 126 (2da parte)
+
+        126 - 40 = 86  (3er parte)
+</pre>
+</div> <a href="javascript:void(0)">Mostrar respuesta</a>
+
+<br><br>
+
+<p>
+<span class="num">1.3</span> _ La edad de A es el triplo de la de B y dentro de 20 años sera el doble, cuales son sus edades actuales?
+</p>
+
+<div id="respuesta">
+<pre>
+B = x
+A = 3x
+
+3x + 20 = 2 (x + 20) 
+3x + 20 = 2x + 40
+3x - 2x = 40 - 20
+      x = 20  (edad actual de B)
+ 3 . 20 = 60  (edad actual de A)   
+<pre>
+</div>  <a href="javascript:void(0)">Mostrar respuesta</a>
+
+<br><br>
+
+<p>
+<span class="num">1.4</span> _ Se han comprado 96 aves entre gallinas y palomas. Cada gallina costo $0.80 y cada paloma $0.65. Si el importe de la compra es 69.30, cuantas gallinas y cuantas palomas se han comprado?
+</p>
+
+<div id="respuesta">
+<pre>
+ x = gallinas
+ 96 - x = palomas
+
+ 0.8x + 0.65(96 - x) = 69.30
+ 0.8x + 62.4 - 0.65x = 69.30
+               0.15x = 6.9
+                   x = 46  (numero de gallinas)
+             96 - 46 = 50  (numero de palomas)
+<pre>
+</div> 
+<a href="javascript:void(0)">Mostrar respuesta</a>
+
+<br><br>
+<p>
+<span class="num">1.5</span> _ Hace 12 años la edad de A era el doble que la de B y dentro de 12 años la edad de A sera 68 años menos que el triplo de la de B. Hallar las edades actuales
+</p>
+
+<div id="respuesta">
+<pre>
+B = x                (Edad de B actual)
+A = 2(x -12)         (Edad de A hace 12 años)
+A = 3 (x + 12) - 68  (Edad de A dentro de 12 años)
+24 (Años de diferencia entre ambas edades de A) 
+
+2(x - 12) + 24 = 3 (x + 12) - 68
+  2x - 24 + 24 = 3x + 36 - 68
+            2x = 3x - 32
+            -x = -32
+             x = 32 (Edad actual de B)
+
+             2(32-12) + 12 =
+                   40 + 12 = 52 (edad actual de A)
+</pre>
+
+</div> <a href="javascript:void(0)">Mostrar respuesta</a>
+
+<br><br>
+<p>
+<span class="num">1.6</span> _ Dentro de 5 años la edad de A sera el triplo de la de B y 15 años despues de eso la edad de A sera el duplo de la de B. Hallar las edades actuales.
+</p>
+
+<div id="respuesta">
+<pre>
+B = x           (Edad de B actual)
+A = 3(x + 5)    (Edad de A en 5 años)
+A = 2(x + 20)   (Edad de A en 20 años)  
+15 (Años de diferencia entre ambas edades de A)
+
+ 3(x + 5) + 15 = 2(x + 20)
+  3x + 15 + 15 = 2x + 40
+       3x + 30 = 2x + 40
+             x = 10 (Edad de B actual)
+
+A = 3(10 + 5) - 5 = 40 (Edad de A actual)
+<pre>
+</div> <a href="javascript:void(0)">Mostrar respuesta</a>
+
+<br><br>
+<p>
+<span class="num">1.7</span> _ 5 personas han comprado una tienda contribuyendo por partes iguales. De haber habido 2 socios más hubiesen pagado $800 menos cada uno, cuanto costo la tienda?
+</p>
+
+<div id="respuesta">
+<pre>
+ x = costo tienda
+
+<sup>x</sup>&frasl;<sub>5</sub> - 800  = <sup>x</sup>&frasl;<sub>7</sub>
+ <span class="fraction">
+<span class="fup">x - 4000</span><span class="bar">/</span><span class="fdn">5</span>
+</span> = <sup>x</sup>&frasl;<sub>7</sub>
+7x - 28000 = 5x
+
+- 28000 =  5x - 7x
+
+- 28000 = -2x
+
+  14000 = x  (costo tienda)
+
+<pre>
+</div> <a href="javascript:void(0)">Mostrar respuesta</a>
+
+<br><br>
+<p>
+<span class="num">1.8</span> _ Se han comprado 80 pies cubicos de madera por $68.40, la madera es de cedro y caoba, costando el pie cubico de cedro $0.75 y el de caoba $0.90, cuantos pies cubicos de cada madera se han comprado?
+</p>
+
+<div id="respuesta">
+<pre>
+ x = piezas de cedro
+ 80 - x = piezas de caoba
+
+ 0.75x + 0.9(80 - x) = 68.4
+   0.75x + 72 - 0.9x = 68.4
+             - 0.15x = -3.6
+                   x = 24   (piezas de cedro)
+        
+                   80 - 24 = 56 (piezas de caoba)
+<pre>
+</div> <a href="javascript:void(0)">Mostrar respuesta</a>
+
+
+
+
+
+
+
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</div>
+</body>
+</html>
