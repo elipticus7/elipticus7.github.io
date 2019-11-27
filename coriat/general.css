@@ -140,25 +140,25 @@ text-align: justify;
 
 
  a:link#int {
-    color: #4d79ff;
+    color: #0088cc;
    text-decoration: none;
 }
 
 
  a:visited#int {
-    color: #4d79ff;
+    color: #0088cc;
     text-decoration: none;
 }
 
 
  a:hover#int {
-    color: #4d79ff;
+    color: #0088cc;
     text-decoration: none;
 }
 
 
  a:active#int {
-    color: #4d79ff;
+    color: #0088cc;
     text-decoration: none;
 }
 
