@@ -147,7 +147,7 @@ text-align: justify;
 
 
   a:link.lnk{
-    color: #1a53ff;
+    color: #4080bf;
     text-decoration: none;
 
  }   
@@ -155,32 +155,32 @@ text-align: justify;
 
 
   a:visited.lnk{
-    color: #1a53ff;
+    color: #4080bf;
     text-decoration: none;
 }
 
   a:hover.lnk{
       text-decoration: underline;
-      color: #1a53ff;
+      color: #4080bf;
       text-decoration: none;
       text-shadow: 1px 1px #33ffff;
 }
 
   a:link.lnki{
-    color:#1a53ff;
+    color: #4080bf;
     text-decoration: none;
 }   
 
 
 
   a:visited.lnki{
-    color:#1a53ff;
+    color: #4080bf;
     text-decoration: none;
 }
 
   a:hover.lnki{
     text-decoration: none;
-    color:#1a53ff;
+    color: #4080bf;
 
      text-shadow: 1px 1px #33ffff;
 }
