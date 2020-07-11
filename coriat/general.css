@@ -1,18 +1,18 @@
 body, html {
     display: inline;
-    color:  #333333;  
+    color:  #404040;    
     background-image: url('fondo.jpg') ;
     
     
     height: 100%;
    
     font-size: 100%;
-    background-size: 70%;
+    background-size: cover;
     background-attachment: fixed;
-    height: 100%;
+
     
     font-size: 100%;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
 
 }
 
@@ -31,7 +31,7 @@ body, html {
 
  p {
     
-    font-size: 140%;
+    font-size: 20px;
     text-align: justify;
     margin-left: auto;
     margin-right: auto; 
@@ -61,9 +61,9 @@ body, html {
   margin-bottom: 88px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 680px;
+  max-width: 630px;
   background-color: white;
-  padding: 4% ;
+  padding: 3% ;
   padding-top: 0%;
   border-color: #b3ffeb;
   border: solid;
@@ -85,7 +85,7 @@ body, html {
 
  pre {
 
-   font-size: 121%;
+  font-size: 111%;
   margin-left: 5%;
 
 
@@ -97,7 +97,7 @@ body, html {
 
 font-family: 'Anton', sans-serif;
 text-shadow: 2px 2px #999999;
-font-size: 204%;
+font-size: 38px;
 }
 
  h2 {
@@ -113,7 +113,7 @@ text-shadow: 2px 2px #999999;
     opacity: 0.9;
     width:100%;
     font-size: 225%;
-    color: #e6b800;
+    color: #b38f00;
     position: fixed;
     font-family: 'Anton', sans-serif;
     text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
@@ -140,14 +140,14 @@ text-align: justify;
 
 
  a:link.int {
-    color: #1a53ff;
+    color: #00b3b3;
    text-decoration: none;
    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 
 
  a:visited.int {
-    color: #1a53ff;
+    color: #00b3b3;
     text-decoration: none;
     text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 
@@ -162,7 +162,7 @@ text-align: justify;
 
 
  a:active.int {
-    color: #1a53ff;
+    color: #00b3b3;
     text-decoration: none;
     text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
@@ -215,13 +215,13 @@ a:visited.lnk{
 }
 
  nav  {
-       max-width: 1150px;
+       max-width: 300px;
        top: 19%;
        float: right;
        position: fixed;
        font-size: 122%;
        background-color: #0c1a27;
-       opacity: 0.8;
+       opacity: 0.9;
        padding:  1%;
        line-height: 89%;
        border-radius: 8px;
@@ -233,7 +233,7 @@ a:visited.lnk{
 
  }
 
- nav ul {
+ nav ul li {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -258,7 +258,7 @@ a:visited.lnk{
     margin: 7;
     padding: 0;
     font-size: 87%;
-    text-decoration: underline;
+    text-decoration: none;
     line-height: 77%;
  }
 
@@ -305,7 +305,7 @@ a:visited.lnk{
 .modal-content {
 
      color: #b3ffeb;
-
+    
     font-family: monospace;
     text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 
