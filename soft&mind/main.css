@@ -1,23 +1,27 @@
 body, html {
     display: inline;
-    color:  black;  
+    color:  #404040;  
     background-image: url('fondo.jpg') ;
-    background-size: 20%;
+    
+    
+    height: 100%;
+   
+    font-size: 100%;
+    background-size: 17%;
     background-attachment: fixed;
     height: 100%;
-    width: 100%
-    counter-reset: item;
+    
     font-size: 100%;
     background-repeat: repeat;
-}
 
+}
 
 
 
  a.anchor {
     display: block;
     position: relative;
-    top: -116px;
+    top: -105px;
 }
 
  audio {
@@ -27,24 +31,38 @@ body, html {
 
  p {
     
-    font-size: 122%;
+    font-size: 126%;
     text-align: justify;
     margin-left: auto;
     margin-right: auto; 
     font-family: 'IM Fell English', serif;
     font-weight: 600;
-    line-height: 129%;
-    
+    line-height: 134%;
+    background-color: none;
 }
+
+ p.quote {
+  font-size: 118%;
+  font-weight: 0;
+  max-width: 490px;
+  font-style: italic;
+  line-height: 127%;
+ }
+
+ p.encab {
+  font-style: italic;
+  max-width: 815px;
+  font-size: 131%;
+ }
 
 
 
  #divcen {  
-  margin-top: 138px;
+  margin-top: 8em;
   margin-bottom: 88px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 840px;
+  max-width: 630px;
   background-color: white;
   padding: 3% ;
   padding-top: 0%;
@@ -58,20 +76,12 @@ body, html {
  #divcenmas {
    margin-left: auto;
    margin-right: auto;
-   max-width: 650px;
+   max-width: 550px;
    font-size: 110%;
 }
 
 
- #quote {
 
-     margin-top: 50px;
-    padding-left: 18%;
-    padding-right: 18%;
-    font-style: italic;
-    font-size: 120%;
-    text-align: justify;
- }
 
 
  pre {
@@ -79,36 +89,39 @@ body, html {
    font-size: 111%;
   margin-left: 5%;
 
+
  }
 
 
 
- h2 {
+ h1 {
 
 font-family: 'Anton', sans-serif;
 text-shadow: 2px 2px #999999;
 font-size: 204%;
 }
 
+ h2 {
+
+font-family: 'Anton', sans-serif;
+text-shadow: 2px 2px #999999;
+
+}
 
 
  #banner{
-    background-color: #19334d;
+    background-color: #0c1a27;
     opacity: 0.9;
     width:100%;
-    font-size: 215%;
-    color: #b3ffeb;
+    font-size: 225%;
+    color: #b38f00;
     position: fixed;
     font-family: 'Anton', sans-serif;
     text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
     top: 0%;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #80ffdf;
+    padding: 7px;
+
+
     border-radius: 6px;
     line-height: 96%;
 }
@@ -126,76 +139,74 @@ text-align: justify;
  }
 
 
- a:link#int {
-    color: #1a53ff;;
+
+ a:link.int {
+    color: #00b3b3;
    text-decoration: none;
+   text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 
 
- a:visited#int {
-    color: #1a53ff;
+ a:visited.int {
+    color: #00b3b3;
     text-decoration: none;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+
 }
 
 
- a:hover#int {
-    color: #1a53ff;
+ a:hover.int {
+    color: #33ffff;
     text-decoration: none;
+    text-shadow: 1px 1px black;
 }
 
 
- a:active#int {
-    color: #1a53ff;
+ a:active.int {
+    color: #00b3b3;
     text-decoration: none;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
 }
 
 
-  a:link.lnk{
-    color: #1a53ff;
-    text-decoration: none;
-
- }   
-
-
-
-  a:visited.lnk{
-    color: #1a53ff;
+a:visited.lnk{
+    color: #4080bf;
     text-decoration: none;
 }
 
   a:hover.lnk{
       text-decoration: underline;
-      color: #1a53ff;
+      color: #4080bf;
       text-decoration: none;
       text-shadow: 1px 1px #33ffff;
 }
 
   a:link.lnki{
-    color:#1a53ff;
+    color:#00b3b3;
     text-decoration: none;
 }   
 
 
 
   a:visited.lnki{
-    color:#1a53ff;
+    color:#00b3b3;
     text-decoration: none;
 }
 
   a:hover.lnki{
     text-decoration: none;
-    color:#1a53ff;
+    color:#00b3b3;
 
      text-shadow: 1px 1px #33ffff;
 }
 
 
   a {text-decoration: none;
-    color: #000080;
+    color: #007399;
    }
 
   a:visited{
-    color:#000080;
+    color:#007399;
     text-decoration: none;
 }
 
@@ -204,66 +215,63 @@ text-align: justify;
   text-shadow: 1px 1px #33ffff;
 }
 
-
-
-
-
  nav  {
-       max-width: 1150px;
-       top: 14%  ;
+       max-width: 250px;
+       top: 19%;
        float: right;
        position: fixed;
-       font-size: 102%;
-       background-color:  white;
-       padding:  2%  ;
-       font-family: monospace;
+       font-size: 122%;
+       background-color: #0c1a27;
+       opacity: 0.8;
+       padding:  1%;
+       line-height: 89%;
        border-radius: 8px;
        font-weight: 600;
        border-color: #b3ffeb;
        border: solid;
        border-width: 2px;
- }
+       font-family: 'Anton', sans-serif;
 
+ }
 
  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-family: 'Anton', sans-serif;
+    
      }
 
  nav li {
-
-
-     margin: 2;
+    margin: 2;
     padding: 2;
 
  }
 
- ul li  {
-    font-family: 'Anton', sans-serif;
-    font-size: 155%;
-
- }
-
-
-  ol li  {
-    font-family: monospace;
-    font-size: 84%;
-
- }
-
-
-  ol.sub-menu {
-
+ ol.sub-menu {
     margin: 7;
     padding: 0;
 
+
  }
 
-  li.dropdown {
 
-     background-color: none;
+  ol.sub-menu li {
+    margin: 7;
+    padding: 0;
+    font-size: 87%;
+    text-decoration: underline;
+    line-height: 77%;
+ }
+
+  ol li  {
+    
+   margin: 0 0 8px 0;
+    
+ }
+
+
+  li.dropdown {
+    background-color: none;
     background:  none;
     border: none;
 }
@@ -373,7 +381,6 @@ text-align: justify;
     text-decoration: none;
     cursor: pointer;
     text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
-
 }
 
 .parentesis {
