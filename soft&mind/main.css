@@ -35,9 +35,9 @@ body, html {
     text-align: justify;
     margin-left: auto;
     margin-right: auto; 
-    font-family: 'IM Fell English', serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     font-weight: 600;
-    line-height: 134%;
+    line-height: 34%;
     background-color: none;
 }
 
